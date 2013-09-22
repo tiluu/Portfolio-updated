@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name='description' content='Tina Luu'>
+	<meta name='keywords' content= 'Tina Luu, developer, thinkful, coding'>
+	<link rel="icon" type="image/png" href="img/icon.ico">
+	<script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+	<script type="text/javascript" src='../static/script.js'></script>
+	<link rel="stylesheet" type="text/css" href="../static/style.css">
+
+</head>
+
+<body>
+<header>
+	<nav id='header_nav'>
+		<ul>
+			<li><a href="/aboutme">About</a></li>
+			<li><a href="/whatido">Work</a></li>
+			<li><a href="/sayhello">Contact</a></li>
+		</ul>
+	</nav>
+</header>
+<div id='wrapper'> 
+	{% block intro%}
+	{% endblock%}
+	{% block contents%}
+	{% endblock%}
+	
+	<footer>
+		<nav id="footer_nav">
+			<ul>
+				<li><a href="https://github.com/tiluu" target="_blank"><img src="../static/img/github.png"></a></li>
+				<li><a href="https://twitter.com/tinaaluu" target="_blank"><img src="../static/img/twitter.png"></a></li>
+				<li><a href="http://instagram.com/tinaaluu" target="_blank"><img src="../static/img/instagram-icon.png"></a></li>
+			</ul>
+		</nav>
+	</footer>
+	
+</div>
+</body>
+</html>

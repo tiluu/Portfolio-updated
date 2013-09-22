@@ -12,11 +12,11 @@ $(document).ready(function(){
 	function random_bg_color(){
 		var random_num = Math.round(Math.random()*7)
 		current_color = background_colors[random_num]
-		$('#wrapper').css('background-color', current_color)
+		$('body').css('background-color', current_color)
 	} 
 	random_bg_color();
 
-	$('#wrapper').on('click', function(){
+	$('body').on('click', function(){
 		random_bg_color();
 	})
 	
