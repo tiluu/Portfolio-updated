@@ -16,9 +16,6 @@ $(document).ready(function(){
 	} 
 	random_bg_color();
 
-	$('body').on('click', function(){
-		random_bg_color();
-	})
 	
 
 	function infolist(){
